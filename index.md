@@ -8,7 +8,5 @@
 - Makes use of relative motion between centres of mass of circular and Relaux triangle shaped gears. 
 - Inverse kinematics that include differential equations? Sounds good. 
 
-```markdown
-Syntax highlighted code block
 
 ## Hey! Saw something that you find intersting or applicable to a problem you are working on? Please let met know!
