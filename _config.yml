@@ -1,7 +1,3 @@
-theme: jekyll-theme-minimal
-title: Dear internet. Welcome to my page!
-description: Here are a few of my ideas. (Their about as organised as my thoughts...) 
-
-# 3DOF planar mechanism
-
-This mechanism uses three rotational inputs to move a point in a plane. The x-y location as well as the rotation of the end point can be controlled. 
+theme:	jekyll-theme-minimal
+title:	Dear	internet.	Welcome	to	my	page!
+description:	Here	are	a	few	of	my	ideas.	(Their	about	as	organised	as	my	thoughts...)
