@@ -1,5 +1,5 @@
 # Hate to burst your bubble: This page is still under construction.
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif)
 
 # 3DOF planar motion concept
 
