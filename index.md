@@ -6,6 +6,7 @@
 - Rotational inputs only
 - Stationary actuators give parallel kinematic advantages
 
+![Alt Text](https://github.com/DouwMarx/DouwMarx/blob/master/PMC2.gif)
 # Reulaux Triangle planar motion concept
 
 - Makes use of relative motion between centers of mass of circular and Reulaux triangle-shaped gears. 
