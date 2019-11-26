@@ -15,5 +15,7 @@
 
 ![Alt Text](https://github.com/DouwMarx/DouwMarx/blob/master/PM.gif)
 
+![Alt Text](https://github.com/DouwMarx/DouwMarx/master/PM.gif)
+
 
 ### Hey! Saw something that you find interesting or applicable to a problem you are working on? Please let me know!
