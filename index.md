@@ -13,5 +13,7 @@
 - Makes use of relative motion between centers of mass of circular and Reulaux triangle-shaped gears. 
 - Inverse kinematics that include differential equations? Sounds good. 
 
+![Alt Text](https://github.com/DouwMarx/DouwMarx/blob/master/PM.gif)
+
 
 ### Hey! Saw something that you find interesting or applicable to a problem you are working on? Please let me know!
