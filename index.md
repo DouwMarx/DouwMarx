@@ -14,24 +14,26 @@
 Ok, the heading above is a bit of a lie, but hear me out. 
 
 Consider the mechanism below. 
-- The plate initally highlighted is constrained to move in a plane without rotational degrees of freedom.
+- The plate initially highlighted is constrained to move in a plane without rotational degrees of freedom.
 - The mechanism makes use of three linear actuators to achieve motion
 
-![translation](https://user-images.githubusercontent.com/58186739/69939078-9cddbd80-14e7-11ea-8b22-4fb29386aefa.gif)
-
-- In the first configuation, the plate initially highlighted is fixed in space (The translational degrees of freedom are removed). This could be achived with the used of for instance a hydraulic brake. 
-- The mechanism now has two rotational degrees of freedom and one translational degree of freedom.
-
-
-- The "brake" is now removed from the plate, and it regains its translational degrees of freedom.
-- The brake is now applied to the universal joint in the centre of the end effector.
 
 ![rotation](https://user-images.githubusercontent.com/58186739/69939093-a2d39e80-14e7-11ea-8119-42cde54c67d9.gif)
 
-- The mechanism now has three translational degrees of freedom.
 
-Ok so what? Well, if we consider the brake to be a single actuator
+- In the first configuration, the plate initially highlighted is fixed in space (The translational degrees of freedom are removed). This could be achieved with the used of for instance a hydraulic brake. 
+- The mechanism now has two rotational degrees of freedom and one translational degree of freedom.
 
+
+
+The "brake" is now removed from the plate, and it regains its translational degrees of freedom.
+- The brake is now applied to the universal joint in the center of the end effector.
+
+![translation](https://user-images.githubusercontent.com/58186739/69939078-9cddbd80-14e7-11ea-8b22-4fb29386aefa.gif)
+
+- The mechanism now has three translational degrees of freedom (x,y,z).
+
+Ok, so what? Well, if we consider the brake to be a single actuator, a single actuator can be used to "gain" multiple degrees of freedom. Two rotational degrees can be exchanged for two rotational degrees of freedom with the requirement being only one (not two) additional actuator. Obviously, a choice between either rotational degrees of freedom or translational degrees of freedom is required and we are not actually achieving 5 degrees of freedom with 4 actuators seeing that all of the degrees of freedom cannot be utilized simultaneously. Come on, don't ruin a good story with facts.
 
 
 # Reulaux Triangle planar motion concept
