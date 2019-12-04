@@ -1,5 +1,13 @@
+{::options parse_block_html="true" /}
+
+
 # Hate to burst your bubble: This page is still under construction.
-![Alt Text](https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif)
+<img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
+
+
+
+
+
 
 # 3 Degree of freedom planar motion concept
 
@@ -44,8 +52,9 @@ Ok, so what? Well, if we consider the brake to be a single actuator, a single ac
 
 # Natural Frequency Energy Storage
 
-
 ![MGH1](https://user-images.githubusercontent.com/58186739/70127181-3392b180-1683-11ea-9966-49df05058be4.gif)
+
+<img src="https://user-images.githubusercontent.com/58186739/70127181-3392b180-1683-11ea-9966-49df05058be4.gif" width="1500"/>
 
 Unbalanced moment acts like spring mass system
 ![MGH2](https://user-images.githubusercontent.com/58186739/70127183-35f50b80-1683-11ea-8188-cdf8db3b0534.gif)
@@ -53,6 +62,42 @@ Unbalanced moment acts like spring mass system
 ![Animated-mass-spring-faster](https://user-images.githubusercontent.com/58186739/70127575-f8dd4900-1683-11ea-9b96-1b9d4e7592f3.gif)
 
 ![Energy_plot](https://user-images.githubusercontent.com/58186739/69635130-670a8600-105c-11ea-8388-ba9778d2926c.png)
+
+
+#Test
+{: .gitlab-purple}
+
+<div class="text-white bg-blue mb-2">
+  .text-white on .bg-blue
+</div>
+
+
+<br>
+----
+
+----
+
+## On this page
+{:.no_toc}
+
+- TOC
+{:toc}
+
+----
+
+
+{::comment that is not visible on the website}
+
+
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
 
 
 # Alternative energy for Feller bunchers
