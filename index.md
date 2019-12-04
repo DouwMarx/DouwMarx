@@ -44,6 +44,13 @@ Ok, so what? Well, if we consider the brake to be a single actuator, a single ac
 
 # Natural Frequency Energy Storage
 
+
+![MGH1](https://user-images.githubusercontent.com/58186739/70127181-3392b180-1683-11ea-9966-49df05058be4.gif)
+
+Unbalanced moment acts like spring mass system
+![MGH2](https://user-images.githubusercontent.com/58186739/70127183-35f50b80-1683-11ea-8188-cdf8db3b0534.gif)
+
+
 ![Energy_plot](https://user-images.githubusercontent.com/58186739/69635130-670a8600-105c-11ea-8388-ba9778d2926c.png)
 
 
