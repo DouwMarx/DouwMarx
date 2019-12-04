@@ -93,12 +93,21 @@ Unbalanced moment acts like spring mass system
 **Note**
 {: .panel-heading}
 <div class="panel-body">
+  
+----
+  <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
+<a href="/donate">Text</a>
+</div>
+
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
+<a href="/blog">testtext</a>
+</div>
 
 NOTE DESCRIPTION
 
 </div>
 </div>
-
+----
 
 # Alternative energy for Feller bunchers
 
