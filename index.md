@@ -10,7 +10,7 @@
 <img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
 
 ----
-
+*See the **Terminology** section for some lingo demystification*
 
 # 3 Degree of freedom planar motion concept
 This parallel mechanism has the following interesting attributes
@@ -21,39 +21,34 @@ This parallel mechanism has the following interesting attributes
 
 ![PM](https://user-images.githubusercontent.com/58186739/71544220-f620fb80-2984-11ea-8113-d19be218dfeb.gif)
 
+
 ----
 # Actuating two degrees of freedom with a single actuator. 
 
 Ok, the heading above is a bit of a lie, but hear me out. 
+Consider the rather elaborately colored mechanism below. 
 
-Consider the mechanism below. 
-- The plate initially highlighted is constrained to move in a plane without rotational degrees of freedom.
-- The mechanism makes use of three linear actuators to achieve motion
+![3DT2](https://user-images.githubusercontent.com/58186739/71546107-0db7ae80-299c-11ea-845d-daa9b6cd0157.gif)
 
+Imagine a brake can be applied to any of the revolute joints in the mechanism, thereby constraining one of the degrees of freedom of the mechanism. 
 
-![rotation](https://user-images.githubusercontent.com/58186739/71544233-22d51300-2985-11ea-8391-ce364d4c7a84.gif)
+In the mechanism pictured, a brake (perhaps a hydraulic brake) constrains the rotational degrees of freedom of the mechanism.  Consequently, when the linear actuators (green and blue) are extended and contracted, the end effector (black cylinder) translates in the x,y and z directions whilst the rotational orientation of the end effector remains fixed. 
 
+When the brake is removed and reapplied to fix the blue and yellow plates, the mechanism is transformed to have two rotational degrees of freedom and a translational degree of freedom (z-direction).
 
-- In the first configuration, the plate initially highlighted is fixed in space (The translational degrees of freedom are removed). This could be achieved with the used of for instance a hydraulic brake. 
-- The mechanism now has two rotational degrees of freedom and one translational degree of freedom.
+![3DR2](https://user-images.githubusercontent.com/58186739/71546105-07c1cd80-299c-11ea-83cf-b6317062a366.gif)
 
+Under the assumption that a single actuator can be used to achieve both of the above configurations (for instance a hydraulic cylinder that can move hydraulic fluid in both directions of flow), two degrees of freedom can be exchanged for another two. 
 
+ So, two rotational degrees can be exchanged for two rotational degrees of freedom with the requirement being only one (not two) additional actuator. A choice between either rotational degrees of freedom or translational degrees of freedom is however required and therefore 5 degrees of freedom is not achieved using only 4 actuators. Come on man, don't ruin a good story with facts. 
 
-The "brake" is now removed from the plate, and it regains its translational degrees of freedom.
-- The brake is now applied to the universal joint in the center of the end effector.
+But while we're at it, one could argue that, using a sophisticated clutch mechanism, you could drive an infinite amount of degrees of freedom with a single motor. This mechanism just allows for more straight forward "clutch" integration. 
 
-![translation](https://user-images.githubusercontent.com/58186739/71544235-25d00380-2985-11ea-8e04-c77c050fa7a2.gif)
+As a final little tangent: This type of friction-based mechanism can get particularly interesting when "brakes" are applied in a dynamic sense. By rapidly switching the braking configuration and relying on some inertial effects, multiple degree of freedom motion with an actuator deficiency might just be possible.
 
-- The mechanism now has three translational degrees of freedom (x,y,z).
-
-Ok, so what? Well, if we consider the brake to be a single actuator, a single actuator can be used to "gain" multiple degrees of freedom. Two rotational degrees can be exchanged for two rotational degrees of freedom with the requirement being only one (not two) additional actuator. Obviously, a choice between either rotational degrees of freedom or translational degrees of freedom is required and we are not actually achieving 5 degrees of freedom with 4 actuators seeing that all of the degrees of freedom cannot be utilized simultaneously. Come on, don't ruin a good story with facts.
-
-
-<div class="panel panel-info">
-**I guess at the end of the day you could argue that a sophisticated clutch mechanism can be used to drive an infinite amount of degrees of freedom with a single motor. **
-{: .panel-heading}
-<div class="panel-body">
-
+<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
+<a href="/blog">I guess at the end of the day you </a>
+</div>
 
 ----
 # Reulaux Triangle planar motion concept
@@ -61,46 +56,47 @@ Ok, so what? Well, if we consider the brake to be a single actuator, a single ac
 - Makes use of relative motion between centers of mass of circular and Reulaux triangle-shaped gears. 
 - Inverse kinematics that include differential equations? Sounds good. 
 ----
-
 # Natural Frequency Energy Storage
+
+Renewable energy is great. The success off wind and solar energy are however very reliant on our ability to store the energy we gather. There are many interesting ways to achieve energy, one of which is storing energy in gravitational potential energy (https://www.gravitricity.com/, https://heindl-energy.com/). Why not extend this concept to a dynamic energy storage method.
+
+The mechanism is excited at its natural frequency to store energy. 
 
 ![MGHA](https://user-images.githubusercontent.com/58186739/71544604-523a4e80-298a-11ea-804f-14139f771c18.gif)
 
-<img src="https://user-images.githubusercontent.com/58186739/70127181-3392b180-1683-11ea-9966-49df05058be4.gif" width="1500"/>
 
-Unbalanced moment acts like spring mass system
 ![MGHB](https://user-images.githubusercontent.com/58186739/71544606-56666c00-298a-11ea-8ca5-180798b4428f.gif)
 
+Unbalanced moment acts like a spring-mass system
 ![Animated-mass-spring-faster](https://user-images.githubusercontent.com/58186739/70127575-f8dd4900-1683-11ea-9b96-1b9d4e7592f3.gif)
+
+Considering that one of the largest cost limitations is having sufficient height to dangle the energy storage device from, a comparison of the energy capacity with usable elevation of the conventional gravity-based and this dynamic energy-based mechanism is shown below
 
 ![Energy_plot](https://user-images.githubusercontent.com/58186739/69635130-670a8600-105c-11ea-8388-ba9778d2926c.png)
 
+The gravity-based mechanism scales linearly with height whilst the dynamic-energy based mechanism scales quadratically with height. 
+
+This sounds great, but losses and maintenance are expected to be much higher in a dynamic system. Is it worth it? Perhaps. Perhaps not. 
+
 ----
 
+# Feller buncher energy harvesting
+Let's face it, cutting down trees is not quite the first thing that comes to mind when addressing the energy crisis. 
 
-
-
-
-
-
-
-  
+![FB7](https://user-images.githubusercontent.com/58186739/71547424-87559980-29a8-11ea-9015-156949d5c417.gif)
+(Blue Line Land Works, https://www.youtube.com/watch?v=AZO_QIgQ04A)
 ----
-  <div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0;">
-<a href="/donate">Text</a>
-</div>
+# Thinking about Pivot irrigation
+## Parallel kinematic Pivot irrigation
+![pivot_pic](https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg)
 
-<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
-<a href="/blog">testtext</a>
-</div>
-
-NOTE DESCRIPTION
-
-</div>
-</div>
+## Efficient space use
+Somehow, when we pivot around a point, we then to end up with, well, circles.
+![Pivot_air](https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png)
+Considering that we have only so much space for 
 ----
-
-# Alternative energy for Feller bunchers
-
-
-### Hey! Saw something that you find interesting or applicable to a problem you are working on? Please let me know!
+#Terminology
+Degrees of Freedom (DOF) -https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)
+End effector - https://en.wikipedia.org/wiki/Robot_end_effector
+----
+### Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you! *douwmarx@gmail.com*
