@@ -103,10 +103,10 @@ Considering that we have only so much space for planting our crops, at what poin
 
 ----
 # Terminology
-Degrees of Freedom (DOF) -https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)
-End effector - https://en.wikipedia.org/wiki/Robot_end_effector
-Pivot Irrigation - https://en.wikipedia.org/wiki/Center_pivot_irrigation
-Feller buncher  -  https://en.wikipedia.org/wiki/Feller_buncher
+- Degrees of Freedom (DOF) -https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)
+- End effector - https://en.wikipedia.org/wiki/Robot_end_effector
+- Pivot Irrigation - https://en.wikipedia.org/wiki/Center_pivot_irrigation
+- Feller buncher  -  https://en.wikipedia.org/wiki/Feller_buncher
 
 ----
-** Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you!** *douwmarx@gmail.com*
+**Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you!** *douwmarx@gmail.com*
