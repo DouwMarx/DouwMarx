@@ -1,13 +1,14 @@
 {::options parse_block_html="true" /}
 
-## On this page
-{:.no_toc}
+# Hate to burst your bubble: This page is still under construction.
+<img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
 
+
+# On this page
+{:.no_toc}
 - TOC
 {:toc}
 
-# Hate to burst your bubble: This page is still under construction.
-<img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
 
 ----
 *See the **Terminology** section for some lingo demystification*
@@ -46,15 +47,12 @@ But while we're at it, one could argue that, using a sophisticated clutch mechan
 
 As a final little tangent: This type of friction-based mechanism can get particularly interesting when "brakes" are applied in a dynamic sense. By rapidly switching the braking configuration and relying on some inertial effects, multiple degree of freedom motion with an actuator deficiency might just be possible.
 
-<div style="background-color:rgba(0, 0, 0, 0.0470588); text-align:center; vertical-align: middle; padding:40px 0; margin-top:30px">
-<a href="/blog">I guess at the end of the day you </a>
-</div>
 
 ----
 # Reulaux Triangle planar motion concept
 
 - Makes use of relative motion between centers of mass of circular and Reulaux triangle-shaped gears. 
-- Inverse kinematics that include differential equations? Sounds good. 
+- Inverse kinematics dictated by the differential equation of a rolling Reulaux triangle? Sounds good. 
 ----
 # Natural Frequency Energy Storage
 
@@ -82,21 +80,26 @@ This sounds great, but losses and maintenance are expected to be much higher in 
 
 # Feller buncher energy harvesting
 Let's face it, cutting down trees is not quite the first thing that comes to mind when addressing the energy crisis. 
-
-![FB7](https://user-images.githubusercontent.com/58186739/71547424-87559980-29a8-11ea-9015-156949d5c417.gif)
+<img src="https://user-images.githubusercontent.com/58186739/71547424-87559980-29a8-11ea-9015-156949d5c417.gif" width="1500"/>
 (Blue Line Land Works, https://www.youtube.com/watch?v=AZO_QIgQ04A)
+
+
 ----
 # Thinking about Pivot irrigation
 ## Parallel kinematic Pivot irrigation
-![pivot_pic](https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg)
-
+<>![pivot_pic](https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg)
+<img src="https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg" width="1500"/>
 ## Efficient space use
 Somehow, when we pivot around a point, we then to end up with, well, circles.
-![Pivot_air](https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png)
-Considering that we have only so much space for 
+<>![Pivot_air](https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png)
+<img src="https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png" width="1500"/>
+Considering that we have only so much space for planting our crops, at what point does it start making sense to make use of more sophiscticated irrigation techniques that are more space efficient? 
+
 ----
-#Terminology
+# Terminology
 Degrees of Freedom (DOF) -https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)
 End effector - https://en.wikipedia.org/wiki/Robot_end_effector
+
+
 ----
-### Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you! *douwmarx@gmail.com*
+** Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you!** *douwmarx@gmail.com*
