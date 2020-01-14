@@ -3,15 +3,17 @@
 # Hate to burst your bubble: This page is still under construction.
 <img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
 
-
+----
 # On this page
 {:.no_toc}
 - TOC
 {:toc}
-
+----
 
 ----
-*See the **Terminology** section for some lingo demystification*
+*Please see the **Terminology** section for some lingo demystification*
+----
+
 
 # 3 Degree of freedom planar motion concept
 This parallel mechanism has the following interesting attributes
@@ -43,19 +45,23 @@ Under the assumption that a single actuator can be used to achieve both of the a
 
  So, two rotational degrees can be exchanged for two rotational degrees of freedom with the requirement being only one (not two) additional actuator. A choice between either rotational degrees of freedom or translational degrees of freedom is however required and therefore 5 degrees of freedom is not achieved using only 4 actuators. Come on man, don't ruin a good story with facts. 
 
-But while we're at it, one could argue that, using a sophisticated clutch mechanism, you could drive an infinite amount of degrees of freedom with a single motor. This mechanism just allows for more straight forward "clutch" integration. 
+But while we're at it, one could argue that using a sophisticated clutch mechanism, you could drive an infinite amount of degrees of freedom with a single motor. This mechanism just allows for more straight forward "clutch" integration. 
 
 As a final little tangent: This type of friction-based mechanism can get particularly interesting when "brakes" are applied in a dynamic sense. By rapidly switching the braking configuration and relying on some inertial effects, multiple degree of freedom motion with an actuator deficiency might just be possible.
 
 
 ----
 # Reulaux Triangle planar motion concept
-
-- Makes use of relative motion between centers of mass of circular and Reulaux triangle-shaped gears. 
+Ok, so this one is certainly nothing short of optimistic. 
+![MP5](https://user-images.githubusercontent.com/58186739/72324451-a72cd300-36b3-11ea-9591-f9a552116d27.png)
+- Exploits the relative motion between centers of mass of circular and Reulaux triangle-shaped gears to rotate the blue gear. The (white) center of the Reulaux triangle slides in a slot in this blue gear. 
+- At the end of the day the mechanism will still have only two degrees of freedom with only a remote possibility of applying the ideas mentioned in the **Actuating two degrees of freedom with a single actuator.** section.
+- The one interesting thing to take away from this mechanism is that, when the actuators move at the same speed in opposite direction, it would lead to a rotation of the blue gear whilst the blue gear remains stationary. Isn't that already happening with the big red gear without the need for complex Reulaux Triangle shaped gears? Well, yes.
 - Inverse kinematics dictated by the differential equation of a rolling Reulaux triangle? Sounds good. 
+
+
 ----
 # Natural Frequency Energy Storage
-
 Renewable energy is great. The success off wind and solar energy are however very reliant on our ability to store the energy we gather. There are many interesting ways to achieve energy, one of which is storing energy in gravitational potential energy (https://www.gravitricity.com/, https://heindl-energy.com/). Why not extend this concept to a dynamic energy storage method.
 
 The mechanism is excited at its natural frequency to store energy. 
@@ -66,6 +72,7 @@ The mechanism is excited at its natural frequency to store energy.
 ![MGHB](https://user-images.githubusercontent.com/58186739/71544606-56666c00-298a-11ea-8ca5-180798b4428f.gif)
 
 Unbalanced moment acts like a spring-mass system
+
 ![Animated-mass-spring-faster](https://user-images.githubusercontent.com/58186739/70127575-f8dd4900-1683-11ea-9b96-1b9d4e7592f3.gif)
 
 Considering that one of the largest cost limitations is having sufficient height to dangle the energy storage device from, a comparison of the energy capacity with usable elevation of the conventional gravity-based and this dynamic energy-based mechanism is shown below
@@ -76,10 +83,10 @@ The gravity-based mechanism scales linearly with height whilst the dynamic-energ
 
 This sounds great, but losses and maintenance are expected to be much higher in a dynamic system. Is it worth it? Perhaps. Perhaps not. 
 
-----
 
+----
 # Feller buncher energy harvesting
-Let's face it, cutting down trees is not quite the first thing that comes to mind when addressing the energy crisis. 
+Let's face it, cutting down trees is not quite the first thing that comes to mind when addressing the energy crisis. However, we have a lot of potential energy up there (you know, in the mass of living trees?). We cut down plenty of trees every day in plantations. Why not use the rotational moment of a falling tree to generate energy that would have been dissipated on impact with the ground? Could we for instance power a feller buncher saw with compressed air harvested from a falling tree?
 <img src="https://user-images.githubusercontent.com/58186739/71547424-87559980-29a8-11ea-9015-156949d5c417.gif" width="1500"/>
 (Blue Line Land Works, https://www.youtube.com/watch?v=AZO_QIgQ04A)
 
@@ -89,17 +96,17 @@ Let's face it, cutting down trees is not quite the first thing that comes to min
 ## Parallel kinematic Pivot irrigation
 <>![pivot_pic](https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg)
 <img src="https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg" width="1500"/>
-## Efficient space use
-Somehow, when we pivot around a point, we then to end up with, well, circles.
+Somehow, when we pivot around a point, we tend to end up with, well, circles.
 <>![Pivot_air](https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png)
 <img src="https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png" width="1500"/>
-Considering that we have only so much space for planting our crops, at what point does it start making sense to make use of more sophiscticated irrigation techniques that are more space efficient? 
+Considering that we have only so much space for planting our crops, at what point does it start making sense to make use of more sophisticated irrigation techniques that are more space-efficient? 
 
 ----
 # Terminology
 Degrees of Freedom (DOF) -https://en.wikipedia.org/wiki/Degrees_of_freedom_(mechanics)
 End effector - https://en.wikipedia.org/wiki/Robot_end_effector
-
+Pivot Irrigation - https://en.wikipedia.org/wiki/Center_pivot_irrigation
+Feller buncher  -  https://en.wikipedia.org/wiki/Feller_buncher
 
 ----
 ** Hey! Saw something that you find interesting or applicable to a problem you are working on? I'd like to hear from you!** *douwmarx@gmail.com*
