@@ -1,7 +1,7 @@
 {::options parse_block_html="true" /}
 
-# Hate to burst your bubble: This page is still under construction.
-<img src="https://media.giphy.com/media/1SW3w3VEmsn1C/giphy.gif" width="1500"/>
+
+When reading this page, make sure to donate $10 to charity every time "This is not practical at all" crosses your lips. 
 
 ----
 # On this page
@@ -62,7 +62,7 @@ Ok, so this one is certainly nothing short of optimistic.
 
 ----
 # Natural Frequency Energy Storage
-Renewable energy is great. The success off wind and solar energy are however very reliant on our ability to store the energy we gather. There are many interesting ways to achieve energy, one of which is storing energy in gravitational potential energy (https://www.gravitricity.com/, https://heindl-energy.com/). Why not extend this concept to a dynamic energy storage method.
+Renewable energy is great. The success off wind and solar energy are however very reliant on our ability to store the energy we gather. There are many interesting ways to achieve energy, one of which is storing energy in gravitational potential energy (https://www.gravitricity.com/, https://heindl-energy.com/). Why not extend this concept to a dynamic energy storage method?
 
 The mechanism is excited at its natural frequency to store energy. 
 
@@ -93,13 +93,28 @@ Let's face it, cutting down trees is not quite the first thing that comes to min
 
 ----
 # Thinking about Pivot irrigation
-## Parallel kinematic Pivot irrigation
-<>![pivot_pic](https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg)
+## Serial kinematic Pivot irrigation
 <img src="https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg" width="1500"/>
 Somehow, when we pivot around a point, we tend to end up with, well, circles.
-<>![Pivot_air](https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png)
 <img src="https://user-images.githubusercontent.com/58186739/71547515-85d8a100-29a9-11ea-96d8-694b54bb4d03.png" width="1500"/>
 Considering that we have only so much space for planting our crops, at what point does it start making sense to make use of more sophisticated irrigation techniques that are more space-efficient? 
+
+How about a serial kinematic pivot point irigation system? 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/SCARA_right.gif" width="1500"/>
+
+Point B in the picture above represents the traditional wheels found on a pivot irrigation system. However, from point B a cantelever section extends outward to irrigate nearly any arbitrary shape of land. Would the increased space efficiency justify the increased cost and requirement for sophisticated control systems? Perhaps not yet. 
+
+## Hovering irrigation
+
+<>![SK](https://archive.nerdist.com/wp-content/uploads/2016/08/Hose-Lifted-Car-Feature-Image-08292016.jpg)
+
+Is it possible to eliminate wheels from the pivot piont irrigation equation and fly around watering crops? Not only would this allow the irrigation of arbitary shapes of land, but the irrigation system would completely remove itself from the field when other opperations need to be performed. 
+
+
+
+# Wind turbine energy storage
+Use a wind tubine to store energy that can help address the intermittend nature of wind energy. Concepts could include hoising a weight in the wind turbine tower, filling the wind turbine tower with a flywheel or using the wind tubine tower as a compressed air storage space. 
 
 ----
 # Terminology
