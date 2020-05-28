@@ -73,8 +73,8 @@ The mechanism is excited at its natural frequency to store energy.
 
 Unbalanced moment acts like a spring-mass system
 
-![Animated-mass-spring-faster](https://user-images.githubusercontent.com/58186739/70127575-f8dd4900-1683-11ea-9b96-1b9d4e7592f3.gif)
 
+<img src="https://user-images.githubusercontent.com/58186739/70127575-f8dd4900-1683-11ea-9b96-1b9d4e7592f3.gif" width="1500"/>
 Considering that one of the largest cost limitations is having sufficient height to dangle the energy storage device from, a comparison of the energy capacity with usable elevation of the conventional gravity-based and this dynamic energy-based mechanism is shown below
 
 ![Energy_plot](https://user-images.githubusercontent.com/58186739/69635130-670a8600-105c-11ea-8388-ba9778d2926c.png)
@@ -90,7 +90,9 @@ Let's face it, cutting down trees is not quite the first thing that comes to min
 <img src="https://user-images.githubusercontent.com/58186739/71547424-87559980-29a8-11ea-9015-156949d5c417.gif" width="1500"/>
 (Blue Line Land Works, https://www.youtube.com/watch?v=AZO_QIgQ04A)
 
-
+----
+# Wind turbine energy storage
+Use a wind tubine to store energy that can help address the intermittend nature of wind energy. Concepts could include hoising a weight in the wind turbine tower, filling the wind turbine tower with a flywheel or using the wind tubine tower as a compressed air storage space. 
 
 For instance, here is a concept that attempts to store kinetic energy in the rotation of the wind turbine tower.
 <img src="https://user-images.githubusercontent.com/58186739/83111068-534fe300-a0c4-11ea-86d5-812630df9af2.gif" width="1500"/>
@@ -119,8 +121,6 @@ Is it possible to eliminate wheels from the pivot piont irrigation equation and 
 
 
 
-# Wind turbine energy storage
-Use a wind tubine to store energy that can help address the intermittend nature of wind energy. Concepts could include hoising a weight in the wind turbine tower, filling the wind turbine tower with a flywheel or using the wind tubine tower as a compressed air storage space. 
 
 ----
 # Terminology
