@@ -91,7 +91,12 @@ Let's face it, cutting down trees is not quite the first thing that comes to min
 (Blue Line Land Works, https://www.youtube.com/watch?v=AZO_QIgQ04A)
 
 
-----
+
+For instance, here is a concept that attempts to store kinetic energy in the rotation of the wind turbine tower.
+<img src="https://user-images.githubusercontent.com/58186739/83111068-534fe300-a0c4-11ea-86d5-812630df9af2.gif" width="1500"/>
+ A planetary gear arrangement is used not only to control the direction in which the turbine blades are facing but also how much energy is added into the rotating tower. By controlling the amount of power drawn from or applied to the centre shaft connected to the sun gear and the wind turbine tower connected to the ring gear, the rotor orientation can be controlled. Although supporting the wind turbine in a bearing arrangement to facilitate the rotation of the wind turbine tower certainly leads to design challenges, this configuration could mean that generators and other power equipment could be kept on the ground and not in the air as with traditional wind turbines. This could lead to simplified maintenance. Ideally, the rotational energy stored in the wind turbine tower could be used to smooth out the power output of the wind turbine.
+ 
+ ----
 # Thinking about Pivot irrigation
 ## Serial kinematic Pivot irrigation
 <img src="https://user-images.githubusercontent.com/58186739/71547516-86713780-29a9-11ea-91de-614ec1cfe437.jpg" width="1500"/>
@@ -105,6 +110,7 @@ How about a serial kinematic pivot point irigation system?
 
 Point B in the picture above represents the traditional wheels found on a pivot irrigation system. However, from point B a cantelever section extends outward to irrigate nearly any arbitrary shape of land. Would the increased space efficiency justify the increased cost and requirement for sophisticated control systems? Perhaps not yet. 
 
+----
 ## Hovering irrigation
 
 <>![SK](https://archive.nerdist.com/wp-content/uploads/2016/08/Hose-Lifted-Car-Feature-Image-08292016.jpg)
